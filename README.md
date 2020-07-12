@@ -14,7 +14,7 @@ Docker is making history in the software world. Containers integrate into every 
 
 ## Course Duration
 
- - 1 Day
+ - 3 Day
 
 ## Prerequisites
  - Basic Linux Shell Commands
