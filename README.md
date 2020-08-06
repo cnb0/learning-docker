@@ -49,15 +49,6 @@ Docker is making history in the software world. Containers integrate into every 
 
 Developers,DevOps and SREs 
 
-## Scheduling a Private Workshop
-
-
-
-Location
-Workshops may be conducted on-site at your team’s location or at a QualiMente-provided training center. QualiMente is based in the Phoenix, Arizona metropolitan area and training are available to travel to your location within the United States.
-
-Pricing
-
 
 ## Topics
 
