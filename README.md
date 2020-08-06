@@ -27,6 +27,7 @@ Docker is making history in the software world. Containers integrate into every 
  
  ## Goals
   Attendees will learn:
+  ```
       - how and why containerization works
       - how containerization improves security over existing deployment mechanisms
       - how to simplify application delivery processes by creating, testing, and promoting well-defined application image artifacts
@@ -35,6 +36,7 @@ Docker is making history in the software world. Containers integrate into every 
              ship application images to a central artifact repository
              run application images in locally and server clusters
              the architecture, key features, and adoption cycle of the most-common secure container deployment platform options
+  ```
 
 ## Course Duration
 
