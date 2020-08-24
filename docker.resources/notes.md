@@ -54,24 +54,41 @@
             - Isolation / Modification of Container processes from host
                  PIDs ,Network,Filesystems,UID/GID ,IPC, Hostname / Domain
             - Process
+                - Virtualizes the process ID space. 
+                - technique to prevent processes from discovering that they’re containerized. 
+                - Every container has a process with a PID of 1 (the init process) just like on a bare-metal server.
+
             - Network
+                - Virtualizes all the networking resources, such as interfaces, sockets, routing table, MAC table, 
+                - The Linux kernel creates a loopback interface in the netns when a new netns is created.
             - Filesystem - chroot - Clone / Replace list of mounted filesystems
+                        - Virtualizes the filesystem mount points. 
+                        - This allows each group of isolated processes to think they own the root filesystem, 
+                          whereas in reality their root is usually just a constrained view of a larger filesystem.
             - User 
+                   - Virtualizes the users and the user and group IDs. 
+                   - Every isolated group of processes has a root user that acts as root only within that virtual instance.
                    - Replace / Extend UID / GID
                    - Delete unneeded UID / GID from container 
                    - Add / change UID / GID map inside container
                    - root privilege in container, user privilege in base OS
             - IPC
+                - Virtualizes the various constructs for IPC, such as POSIX message queues, shared memory, semaphores 
+                - This also prevents processes from reaching across their isolation unit to mess with another process’s state.
                 - Separate interprocess communications resources
                     - Sys V IPC
                     - POSIX messaging
             - UTS (UNIX Technology Services)
+                - Virtualizes the hostname and domain name such that each isolated unit can set its own hostname and 
+                  domain name without affecting the others or the parent.
                 - Change inside container:
                     - Hostname
                     - Domain
         - cgroups - Control Groups
                   - Way to allocate resources to processes running on a system
                   - Hierarchical and can be dynamically added, changed and removed
+                  - Virtualizes the view of a process’s cgroups as seen via /proc/pid/cgroup and /proc/pid/mountinfo,
+                  
                   - Made up of several subsystems also called Resource Controllers
                       - blkio — this subsystem sets limits on input/output access to and from block devices
                         such as physical drives (disk, solid state, USB, etc.).
@@ -99,6 +116,14 @@
                             - btrfs
                             - LVM
                             - Device mapper
+
+
+- Container Networking 
+                   - Diving InContainer networking has four operating modes:
+                        - No network
+                        - Host network
+                        - Single-host network
+                        - Multihost network
 
 - Kernel Features for Containers :
 
