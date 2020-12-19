@@ -10,8 +10,7 @@ Reference material for the first & only Official Docker certification launched a
 ## Certification Concepts
 
 ### Section-1: Orchestration
-  
-  * [Orchestration - Concepts]
+
   ```
          - • Complete the setup of a swarm mode cluster, with managers and worker nodes
            • State the differences between running a container vs running a service
@@ -33,9 +32,7 @@ Reference material for the first & only Official Docker certification launched a
   
   
 ### Section-2: Image Management
-
-  * [Image Management - Concepts]
-
+ 
           • Describe Dockerfile options [add, copy, volumes, expose, entrypoint, etc]
           • Show the main parts of a Dockerfile
           • Give examples on how to create an efficient image via a Dockerfile
@@ -56,12 +53,10 @@ Reference material for the first & only Official Docker certification launched a
           • Pull an image from a registry
           • Describe how image deletion works
           • Delete an image from a registry
-  
-  * [Knowledge Check]
+
 
 ### Section-3: Installation & Configuration
 ```
-  * [Installation & Configuration - Concepts]
         • Demonstrate the ability to upgrade the Docker engine
         • Complete setup of repo, select a storage driver, and complete installation of Docker
           engine on multiple platforms
@@ -80,8 +75,7 @@ Reference material for the first & only Official Docker certification launched a
   ```
 
 ### Section-4: Networking
-  ```
-  * [Networking - Concepts]
+ ```
       • Create a Docker bridge network for a developer to use for their containers
       • Troubleshoot container and engine logs to understand a connectivity issue between containers
       • Publish a port so that an application is accessible externally
@@ -99,8 +93,6 @@ Reference material for the first & only Official Docker certification launched a
   
 ### Section-5: Security
 ```
-  * [Security - Concepts] 
-
       • Describe the process of signing an image
       • Demonstrate that an image passes a security scan
       • Enable Docker Content Trust
@@ -118,7 +110,6 @@ Reference material for the first & only Official Docker certification launched a
  
 ### Section-6: Volumes
 ```
-  * [Volumes - Concepts] 
       • State which graph driver should be used on which OS
       • Demonstrate how to configure devicemapper
       • Compare object storage to block storage, and explain which one is preferable when available
