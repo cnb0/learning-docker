@@ -4,7 +4,7 @@ Reference material for the first & only Official Docker certification launched a
 
 ## Official Certification Links
 
-  * [Study Guide](https://docker.cdn.prismic.io/docker%2Fa2d454ff-b2eb-4e9f-af0e-533759119eee_dca+study+guide+v1.0.1.pdf)
+  * [Study Guide](https://training.mirantis.com/wp-content/uploads/2020/10/Docker-Study-Guide_v1.5-October.pdf)
   * [Book Certification Slot](https://prod.examity.com/docker/)
   
 ## Certification Concepts
