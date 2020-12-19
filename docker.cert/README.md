@@ -12,6 +12,7 @@ Reference material for the first & only Official Docker certification launched a
 ### Section-1: Orchestration
   
   * [Orchestration - Concepts]
+  ```
          - • Complete the setup of a swarm mode cluster, with managers and worker nodes
            • State the differences between running a container vs running a service
            • Demonstrate steps to lock a swarm cluster
@@ -28,8 +29,8 @@ Reference material for the first & only Official Docker certification launched a
            • Sketch how a Dockerized application communicates with legacy systems
            • Paraphrase the importance of quorum in a swarm cluster
            • Demonstrate the usage of templates with "docker service create" 
+  ```
   
-  * [Knowledge Check]
   
 ### Section-2: Image Management
 
@@ -59,42 +60,45 @@ Reference material for the first & only Official Docker certification launched a
   * [Knowledge Check]
 
 ### Section-3: Installation & Configuration
-
+```
   * [Installation & Configuration - Concepts]
         • Demonstrate the ability to upgrade the Docker engine
-        • Complete setup of repo, select a storage driver, and complete installation of Docker engine on multiple platforms
+        • Complete setup of repo, select a storage driver, and complete installation of Docker
+          engine on multiple platforms
         • Configure logging drivers (splunk, journald, etc)
         • Setup swarm, configure managers, add nodes, and setup backup schedule
         • Create and manage user and teams
         • Interpret errors to troubleshoot installation issues without assistance
         • Outline the sizing requirements prior to installation
         • Understand namespaces, cgroups, and configuration of certificates
-        • Use certificate-based client-server authentication to ensure a Docker daemon has the rights to access images on a registry
+        • Use certificate-based client-server authentication to ensure a Docker daemon 
+          has the rights to access images on a registry
         • Consistently repeat steps to deploy Docker engine, UCP, and DTR on AWS and on premises in an HA config
         • Complete configuration of backups for UCP and DTR
         • Configure the Docker daemon to start on boot
   
-  * [Knowledge Check] 
+  ```
 
 ### Section-4: Networking
-  
+  ```
   * [Networking - Concepts]
       • Create a Docker bridge network for a developer to use for their containers
       • Troubleshoot container and engine logs to understand a connectivity issue between containers
       • Publish a port so that an application is accessible externally
       • Identify which IP and port a container is externally accessible on
       • Describe the different types and use cases for the built-in network drivers
-      • Understand the Container Network Model and how it interfaces with the Docker engine and network and IPAM drivers
+      • Understand the Container Network Model and how it interfaces with the Docker engine and network and
+        IPAM drivers
       • Configure Docker to use external DNS
       • Use Docker to load balance HTTP/HTTPS traffic to an application (Configure L7 load balancing with Docker EE)
       • Understand and describe the types of traffic that flow between the Docker engine, registry, and UCP controllers
       • Deploy a service on a Docker overlay network
       • Describe the difference between "host" and "ingress" port publishing mode
   
-  * [Knowledge Check] 
+  ```
   
 ### Section-5: Security
-
+```
   * [Security - Concepts] 
 
       • Describe the process of signing an image
@@ -110,10 +114,10 @@ Reference material for the first & only Official Docker certification launched a
       • Describe the difference between UCP workers and managers
       • Describe process to use external certificates with UCP and DTR
   * [Docker - Secrets] 
-  * [Knowledge Check] 
-  
+ ```
+ 
 ### Section-6: Volumes
-  
+ ```
   * [Volumes - Concepts] 
       • State which graph driver should be used on which OS
       • Demonstrate how to configure devicemapper
@@ -122,8 +126,7 @@ Reference material for the first & only Official Docker certification launched a
       • Describe how volumes are used with Docker for persistent storage
       • Identify the steps you would take to clean up unused images on a filesystem, also on DTR
       • Demonstrate how storage can be used across cluster nodes
-  
-  * [Knowledge Check] 
+    ```
 
 ## Certification Preparation Material
 
