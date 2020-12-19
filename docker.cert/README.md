@@ -117,7 +117,7 @@ Reference material for the first & only Official Docker certification launched a
  ```
  
 ### Section-6: Volumes
- ```
+```
   * [Volumes - Concepts] 
       • State which graph driver should be used on which OS
       • Demonstrate how to configure devicemapper
@@ -126,7 +126,7 @@ Reference material for the first & only Official Docker certification launched a
       • Describe how volumes are used with Docker for persistent storage
       • Identify the steps you would take to clean up unused images on a filesystem, also on DTR
       • Demonstrate how storage can be used across cluster nodes
-    ```
+```
 
 ## Certification Preparation Material
 
