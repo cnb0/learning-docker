@@ -1,0 +1,1 @@
+- Try to add smart helper scripts (e.g. wrap docker-machine env stuff in a function)
