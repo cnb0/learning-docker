@@ -8,6 +8,19 @@ Control Groups (cgroups) are a feature of the Linux kernel that allow you to lim
 
 In this lab you will use **cgroups** to limit the resources available to Docker containers. You will see how to pin a container to specific CPU cores, limit the number of CPU shares a container has, as well as how to prevent a *fork bomb* from taking down a Docker Host.
 
+CGroups (Control Groups) and Namespces to apply security restrictions to containers.
+
+Below are some examples of the types of cgroups and namespaces that exist.
+
+CGroups Examples
+- --cpu-shares
+- --cpuset-cpus
+- --memory-reservation
+- --kernel-memory
+- --blkio-weight (block  IO)
+- --device-read-iops
+- --device-write-iops
+
 You will complete the following steps as part of this lab.
 
 - [Step 1 - cgroups and the Docker CLI](#cli)
