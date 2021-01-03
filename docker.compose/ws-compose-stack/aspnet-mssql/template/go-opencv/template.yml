@@ -1,2 +1,0 @@
-language: go-opencv
-fprocess: ./handler
