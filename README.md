@@ -7,13 +7,18 @@ so they are comfortable starting to build, ship, and run containerized applicati
 Docker is making history in the software world. Containers integrate into every part of the application lifecycle, 
 from dev and test all the way to staging and deployment. In this workshop, 
 ```
-       - we will see how containers can do much more than what you came to expect from a VM, 
-       - how containers help manage application infrastructures, and how to use Docker management 
+       - we will see how containers can do much more than what 
+         you came to expect from a VM, 
+       - how containers help manage application infrastructures, and 
+         how to use Docker management 
          tools to manage application scale 
          from a single instance to large clusters. 
-       - We will discuss Docker history, understand how containers are different from VMs and 
-       - talk about the Docker file system, install Docker on Linux, macOS, and Windows, build our own container and 
-       - talk about Docker file definitions, and towards the end of the day discuss some advanced topics such as the 
+       - We will discuss Docker history, understand how containers are different 
+         from VMs and 
+       - talk about the Docker file system, install Docker on Linux, macOS, and Windows, 
+         build our own container and 
+       - talk about Docker file definitions, and towards the end of the day discuss 
+         some advanced topics such as the 
        - Docker Hub, Docker Compose, and others -- all accompanied by hands-on labs.
 ```
 ## Course Objectives
@@ -35,13 +40,15 @@ from dev and test all the way to staging and deployment. In this workshop,
   ```
       - how and why containerization works
       - how containerization improves security over existing deployment mechanisms
-      - how to simplify application delivery processes by creating, testing, and promoting well-defined
+      - how to simplify application delivery processes by creating,
+        testing, and promoting well-defined
         application image artifacts
         how to:
              build secure application images
              ship application images to a central artifact repository
              run application images in locally and server clusters
-             the architecture, key features, and adoption cycle of the most-common 
+             the architecture, key features, and adoption cycle of 
+             the most-common 
              secure container deployment platform options
   ```
 
