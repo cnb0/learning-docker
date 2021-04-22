@@ -1,5 +1,5 @@
 - GL340 Course Outline:
-
+ 
 - This course covers all the core features of Docker including
   container creation and management, interacting with Docker
   hub, using Dockerfile to create and manage custom images,
