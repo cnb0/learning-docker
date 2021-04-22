@@ -1,14 +1,12 @@
-#
 # Redis Dockerfile
-#
-# https://github.com/dockerfile/redis
-#
 
 # Pull base image.
-FROM dockerfile/ubuntu
+FROM ubuntu:20.04
 
 # Install Redis.
+RUN apt-get update -y  && apt-get install wget make build-essential -y
 RUN \
+  cd /tmp && \
   cd /tmp && \
   wget http://download.redis.io/redis-stable.tar.gz && \
   tar xvzf redis-stable.tar.gz && \
