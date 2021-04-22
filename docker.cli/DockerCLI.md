@@ -514,8 +514,6 @@ docker kill $(docekr ps -q )
 ```
 
 
-## Contributor - 
 
-Sangam biradar - smbiradar14@gmail.com - engineITops.icu
 
 
