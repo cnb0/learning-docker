@@ -315,9 +315,10 @@ In this step you have seen how to set a process limits on a container that will 
 
 # Memory
 To limit the memory that the container can use to 512 megabyte
-
+```
 $ docker run -m 512m nginx
 $ docker run -m 512m --memory-reservation=256m nginx
+```
 
 
 # Summary
