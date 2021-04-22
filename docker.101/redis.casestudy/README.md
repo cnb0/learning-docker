@@ -8,7 +8,7 @@
 ### Installation
 
 1. Install [Docker](https://www.docker.com/).
-    (alternatively, you can build an image from Dockerfile: `docker build -t="redis" github.com/dockerfile/redis`)
+    (alternatively, you can build an image from Dockerfile: `docker build -t="redis" redis`)
 
 
 ### Usage
