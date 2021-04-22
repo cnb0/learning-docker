@@ -312,6 +312,14 @@ In this step you will use the `--pids-limit` flag to limit the number of process
 
 In this step you have seen how to set a process limits on a container that will prevent it from consuming all process table resources on the underlying Docker Host.
 
+
+# Memory
+To limit the memory that the container can use to 512 megabyte
+
+$ docker run -m 512m nginx
+$ docker run -m 512m --memory-reservation=256m nginx
+
+
 # Summary
 
 Congratulations. You've seen how to use some of the **cgroups** features supported by Docker that allow you to limit and constrain a container's access to Docker Host system resources.
