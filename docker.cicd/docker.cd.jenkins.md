@@ -1,7 +1,7 @@
 
 ### Docker and Jenkins -  DevOps workflow
 
-
+```
 - Build reliable and secure applications using Docker containers.
 - Deliver your applications directly on the Docker Swarm cluster.
 - Create more complex solutions using multi-containers and database migrations.
