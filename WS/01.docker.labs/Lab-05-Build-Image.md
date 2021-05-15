@@ -21,9 +21,10 @@ $ cd first-dockerfile
 
  - Create a new file called "Dockerfile" with the following content:
 ```
-FROM selaworkshops/alpine:3.4
-RUN apk-install python
-CMD python -m SimpleHTTPServer 5000
+FROM alpine
+RUN apk add --no-cache python3 py3-pip
+CMD python3 -m SimpleHTTPServer 5000
+
 ```
 
  - Build the image using:
