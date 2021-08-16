@@ -1,10 +1,5 @@
 ## Working with Docker compose
 
-Clone project
-```
-git clone https://github.com/cnb0/demo-docker-nodejs-mysql.git
-cd demo-docker-nodejs-mysql
-```
 
 Build images
 
