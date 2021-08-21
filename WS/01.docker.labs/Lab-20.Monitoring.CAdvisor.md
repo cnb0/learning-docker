@@ -1,7 +1,9 @@
 # see docker stats of running images
-docker stats
+
+  docker stats
 
 # start cadvisor for monitoring
+```
 docker run \
   --volume=/:/rootfs:ro \
   --volume=/var/run:/var/run:ro \
@@ -12,12 +14,13 @@ docker run \
   --detach=true \
   --name=cadvisor \
   google/cadvisor:latest
-
+```
 # open statistics
 http://localhost:8080/containers/
 
 
 # Portainer
+```
 docker volume create portainer_data
 docker run -d -p 8000:8000 -p 9000:9000 \
    --name=portainer --restart=always \
