@@ -16,6 +16,7 @@ Part 3. Docker And DevOps
             8. Network simulation: realistic environment testing without the pain
         
 Part 4. Docker In Production
+
             9. Container orchestration: managing multiple Docker containers
             10. Docker and security
             11. Plain sailing—Docker in production and operational considerations
