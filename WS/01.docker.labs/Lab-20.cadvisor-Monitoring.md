@@ -1,5 +1,5 @@
 # see docker stats of running images
-#docker stats
+docker stats
 
 # start cadvisor for monitoring
 docker run \
@@ -14,4 +14,4 @@ docker run \
   google/cadvisor:latest
 
 # open statistics
-#http://localhost:8080/containers/
+http://localhost:8080/containers/

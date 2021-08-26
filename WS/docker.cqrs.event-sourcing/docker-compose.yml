@@ -16,7 +16,7 @@ services:
         build: docker/app/
         image: matthiasnoback/cqrs-and-event-sourcing-workshop-app
         volumes:
-            - ./:/opt
+            - ./vol123:/opt
             - ${COMPOSER_HOME}:/home/.composer
         environment:
             COMPOSER_HOME: /home/.composer
