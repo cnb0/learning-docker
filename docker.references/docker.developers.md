@@ -1,6 +1,6 @@
 
 
-###  Section 1: An Introduction To Docker – Containers And Local Development
+ 
        
         Chapter 1: Introduction To Docker
 
@@ -64,7 +64,7 @@
                     Packer
      
    
-### Section 2: Running Docker In Production
+ 
        
             Chapter 5: Alternatives For Deploying And Running Containers In Production
                 
