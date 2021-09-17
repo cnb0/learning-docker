@@ -24,7 +24,7 @@ app.get('/', (req, res) => {
   RedisStore['hits']++;
   const num = RedisStore['hits'];
   
-  res.send(`Hello DevOps Artisan World!! <br><p>I have been loaded >>>> ${num} times   .</p>`);
+  res.send(`Hello DevOps Docker World!! <br><p>I have been loaded >>>> ${num} times   .</p>`);
 });
 
 app.listen(3000, () => {
