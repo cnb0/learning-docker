@@ -11,10 +11,11 @@
 - Create a complete Continuous Delivery process using modern tools: Docker, Jenkins, and Ansible
 - Write acceptance tests using Cucumber and run them in the Docker ecosystem using Jenkins
 - Create multi-container applications using Docker Compose
-- Managing database changes inside the Continuous Delivery process and understand effective frameworks such as 
-- Cucumber and Flyweight
+- Managing database changes inside the Continuous Delivery process and understand effective frameworks 
+  such as Cucumber and Flyweight
 - Build clustering applications with Jenkins using Docker Swarm
-- Publish a built Docker image to a Docker Registry and deploy cycles of Jenkins pipelines using community best practices
+- Publish a built Docker image to a Docker Registry and deploy cycles of Jenkins pipelines using 
+  community best practices
 
 
 ```
