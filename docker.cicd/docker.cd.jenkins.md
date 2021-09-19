@@ -292,6 +292,7 @@
                             Using Docker Compose
                   
 7. Continuous Delivery Pipeline
+8. 
                     Environments and infrastructure
                         Types of environment
                             Production
