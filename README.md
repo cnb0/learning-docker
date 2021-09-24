@@ -1,5 +1,8 @@
 # Docker Workshop  from Engineers Prespective
 
+
+[Containers 101](https://calcotestudios.com/talks/decks/slides-developerweek-austin-2018-linux-containers-101)
+
 ## Course Description
 The Workshop introduces the fundamental concepts of application containerization to engineers 
 so they are comfortable starting to build, ship, and run containerized applications using Docker.
@@ -23,17 +26,17 @@ from dev and test all the way to staging and deployment. In this workshop,
 ```
 ## Course Objectives
 
- - Explain the basics of Docker
- - Use Docker for development, QA, Production
- - Create your own containers
- - Learn how to containerize you applications
- - Understand Docker's file system,volumes, networking and mechanisms
- - understand the differences between virtual machines and application containers
- - put the right things in (and keep the wrong things) out of a Dockerfile to maximize efficiency, 
-   portability, and security
- - learn to build and publish custom Docker images
- - learn to run containerized applications locally and on servers safely with Docker
- - The Docker workshop is highly interactive  
+        - Explain the basics of Docker
+        - Use Docker for development, QA, Production
+        - Create your own containers
+        - Learn how to containerize you applications
+        - Understand Docker's file system,volumes, networking and mechanisms
+        - understand the differences between virtual machines and application containers
+        - put the right things in (and keep the wrong things) out of a Dockerfile to maximize efficiency, 
+          portability, and security
+        - learn to build and publish custom Docker images
+        - learn to run containerized applications locally and on servers safely with Docker
+        - The Docker workshop is highly interactive  
  
  ## Goals
   Attendees will learn:
@@ -80,4 +83,12 @@ Developers,DevOps and SREs
  - Module 10:  Advanced Docker Overview
  - Module 11/12/13:  Docker Compose
  - Module 14:  cgroups
+ - Module 15:  docker cicd
+ - Module 16:  docker registry
+ - Module 17:  docker security
+ - Module 18:  docker security
+ - Module 19:  docker windows
+ - Module 20:  docker caadvisor/monitoring
+ - Module 21:  docker online workshops
+
  
