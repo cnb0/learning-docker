@@ -19,6 +19,21 @@ CGroups Examples
 - --device-read-iops
 - --device-write-iops
 
+Some options that you can use with stress.
+
+      To spawn N workers spinning on sqrt() function, use the –cpu N option as follows.
+      To spawn N workers spinning on sync() function, use the –io N option as follows.
+      To spawn N workers spinning on malloc()/free() functions, use the –vm N option.
+      To allocate memory per vm worker, use the –vm-bytes N option.
+      Instead of freeing and reallocating memory resources, you can redirty memory by using the –vm-keep option.
+      Set sleep to N seconds before freeing memory by using the –vm-hang N option.
+      To spawn N workers spinning on write()/unlink() functions, use the –hdd N option.
+      You can set a timeout after N seconds by using the –timeout N option.
+      Set a wait factor of N microseconds before any work starts by using the –backoff N option as follows.
+      To show more detailed information when running stress, use the -v option.
+      Use –help to view help for using stress or view the manpage.
+
+
 You will complete the following steps as part of this lab.
 
 - [Step 1 - cgroups and the Docker CLI](#cli)
