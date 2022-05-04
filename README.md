@@ -32,8 +32,8 @@ from dev and test all the way to staging and deployment. In this workshop,
         - Learn how to containerize you applications
         - Understand Docker's file system,volumes, networking and mechanisms
         - understand the differences between virtual machines and application containers
-        - put the right things in (and keep the wrong things) out of a Dockerfile to maximize efficiency, 
-          portability, and security
+        - put the right things in (and keep the wrong things) out of a Dockerfile to 
+          maximize efficiency,portability, and security
         - learn to build and publish custom Docker images
         - learn to run containerized applications locally and on servers safely with Docker
         - The Docker workshop is highly interactive  
